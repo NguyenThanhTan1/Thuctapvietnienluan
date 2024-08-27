@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/slick/slick.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/slick/slick-theme.less">
+    <link rel="stylesheet" href="Doibong.css">
+    <link rel="icon" href="img-Logo/Thanhtan.jpg" type="image/x-icon" />
+    <title>FootballLeague-Quản Lý Bóng Đá</title>
+</head>
+
+<body>
+    <section>
+        <div class="banner-header">
+            <div class="row d-flex row-header">
+                <div class="col-lg-4 justify-content-center" style="height: 100%;">
+                    <div class="banner-header-logo">
+                        <div class="banner-header-logo-img">
+                            <img src="Logo.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="banner-header-logo-bottom">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-7   d-flex flex-column justify-content-end">
+                    <div class="banner-header-top flex-grow-1">
+                        <div class="text">
+                            <p>Hệ thống được phát triển bởi FAG</p>
+                        </div>
+                        <div class="Banner-login">
+                            <div class="log-in">
+                                <a href="http://127.0.0.1:5501/Dangky/dangky.html">
+                                    <p>Đăng Ký</p>
+                                </a>
+                            </div>
+                            <div class="log-out">
+                                <a href="http://127.0.0.1:5501/Dangnhap/dangnhap.html">
+                                    <p>Đăng Nhập</p>
+                                </a>
+                            </div>
+                                
+                        </div>  
+                    </div>
+                    <div class="banner-header-top-bottom">
+                        <div class="banner-header-top-bottom-main ">
+                            <a href="http://127.0.0.1:5501/Main/Main.html">
+                                <p>TRANG CHỦ</p>
+                            </a>
+                            <a href="http://127.0.0.1:5500/Doibong/Doibong.html">
+                                <p>ĐỘI BÓNG</p>
+                                <a href="">
+                                    <p>HƯỚNG DẪN</p>
+                                </a>
+                                <a href="http://127.0.0.1:5501/Banggia/Banggia.html">
+                                    <p>BẢNG GIÁ</p>
+                                </a>
+                                <a href="">
+                                    <p>ĐỘI ĐANG THEO DÕI</p>
+                                </a>
+                                <a href="">
+                                    <p>HỖ TRỢ</p>
+                                </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-1">
+                    <div class="background-header-top">
+
+                    </div>
+                    <div class="background-header-bottom">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-search">
+            <div class="search-title">
+                <h1>HỆ THỐNG QUẢN LÝ GIẢI ĐẤU CHUYÊN NGHIỆP</h1>
+            </div>
+            <div class="search-text">
+                <div class="input">
+                    <input type="text" class="search-input" placeholder="Tìm đội bóng của bạn">
+                </div>
+                <div class="icon-search">
+                    <a href=""><i class='bx bx-search-alt-2'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-main">
+            <div class="container">
+                <div class="row d-flex   banner-main-top1">
+                    <div class="col-lg-3">
+                        <div class="top1-Mu">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Mu">
+                                <img src="./img-CLB/Logomu.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Manchester United</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1878
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#" id="follow-btn"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>67 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <a href="http://127.0.0.1:5501/ManchesterUnited/Mu.html">
+                                        <div class="info-league-main">
+                                            <div class="info-text">
+                                                <p>Thông tin</p>
+                                            </div>
+                                            <div class="info-icon">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top1-Realmadrid">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Realmadrid">
+                                <img src="./img-CLB/real.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Real Marid</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1902
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#" id="follow-btn-2" ><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>99 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top1-BayerLavenkusen">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-BayerLavenkusen">
+                                <img src="./img-CLB/BayerLavencusen.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Bayer 04 Leverkusen</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1903
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#" id="follow-btn-3"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>8 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top1-Roma">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Roma">
+                                <img src="./img-CLB/Roma.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Roma</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1927
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#" id="follow-btn-4"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>15 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="banner-main">
+            <div class="container">
+                <div class="row d-flex   banner-main-top2">
+                    <div class="col-lg-3">
+                        <div class="top2-Hanoi">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Hanoi">
+                                <img src="./img-CLB/Hanoi.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Ha Noi</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:2006
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>14 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top2-PSG">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-PSG">
+                                <img src="./img-CLB/PSG.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Paris Saint Germain</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1970
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>53 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top2-heerenveenfc">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-heerenveenfc">
+                                <img src="./img-CLB/Herenven.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Heerenveen FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1920
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>3 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top2-BangkokUnited">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-BangkokUnited">
+                                <img src="./img-CLB/Bankok.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Bangkok United FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1988
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>5 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-main">
+            <div class="container">
+                <div class="row d-flex   banner-main-top3">
+                    <div class="col-lg-3">
+                        <div class="top3-MC">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-MC">
+                                <img src="./img-CLB/Mancity.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Manchester City</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1880
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>10 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top3-Liverpool">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Liverpool">
+                                <img src="./img-CLB/liver.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Liverpool F.C.</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1982
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>25 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top3-Asenal">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Asenal">
+                                <img src="./img-CLB/Phandao.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Asenal FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1986
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>13 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top3-Chelsea">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Chelsea">
+                                <img src="./img-CLB/chel.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Chelsea FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1927
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>15 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-main">
+            <div class="container">
+                <div class="row d-flex   banner-main-top4">
+                    <div class="col-lg-3">
+                        <div class="top4-BayerMunich">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-BayerMunich">
+                                <img src="./img-CLB/BayerMunich.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Bayer Munich FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1879
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>33 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top4-BorussiaDortmund">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-BorussiaDortmund">
+                                <img src="./img-CLB/BorussiaDortmund.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>BorussiaDortmund FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1902
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>99 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top4-Leipzig">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Leipzig">
+                                <img src="./img-CLB/RBLeipzig.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>RB Leipzig</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:2009
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>3 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top4-Schalke04">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Schalke04">
+                                <img src="./img-CLB/schalke04.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Schalke 04</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1904
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>13 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-main">
+            <div class="container">
+                <div class="row d-flex   banner-main-top5">
+                    <div class="col-lg-3">
+                        <div class="top5-Barcelona">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Barcelona">
+                                <img src="./img-CLB/maitua.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>FC Barcelona</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1929
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>89 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top5-Sevilla">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Sevilla">
+                                <img src="./img-CLB/Sevilla.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Sevilla FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1890
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>15 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top5-Valencia">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Valencia">
+                                <img src="./img-CLB/Valencia.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Valencia FC</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1919
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>20 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top5-Villarreal">
+                            <div class="background">
+
+                            </div>
+                            <div class="Logo-Villarreal">
+                                <img src="./img-CLB/Villarreal.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p>Villarreal</p>
+                            </div>
+                            <div class="time">
+                                <div class="time-icon">
+                                    <i class='bx bx-calendar-x'></i>
+                                </div>
+                                <div class="calendar">
+                                    <p>
+                                        Năm thành Lập:1923
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="followers">
+                                <a href="#"><p>Theo dõi</p></a>
+                            </div>
+                            <div id="confirmation-modal" class="modal">
+                                <div class="modal-content">
+                                    <p>Bạn có muốn theo dõi không?</p>
+                                    <button id="confirm-yes">Yes</button>
+                                    <button id="confirm-no">No</button>
+                                </div>
+                            </div>
+                            <div class="footer-rotate">
+                                <div class="count-champion">
+                                    <div class="count-champion-main">
+                                        <div class="champion-icon">
+                                            <i class='bx bxs-trophy'></i>
+                                        </div>
+                                        <div class="champion-text">
+                                            <p>1 Champion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-league">
+                                    <div class="info-league-main">
+                                        <div class="info-text">
+                                            <p>Thông tin</p>
+                                        </div>
+                                        <div class="info-icon">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="banner-end">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p>Bản quyền thuộc FAG</p>
+                        <p>Copyright © 2018 - 2024 FAG. All rights reserved.</p>
+                        <p>Chỉ được phát hành lại nội dung khi có sự đồng ý của FAG</p>
+                        <div class="banne-dowload">
+                            <div class="banne-dowload-logo">
+                                <img src="/Banggia/logo-app-fag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="banner-end-info">
+                            <p><i class='bx bx-home-smile'></i> CÔNG TY CỔ PHẦN TỔ CHỨC SỰ KIỆN VÀ TRUYỀN THÔNG FAG</p>
+                            <p><i class='bx bxs-edit-location'> </i> Số 2, ngách 105/7, ngõ 105 đường An Dương Vương,
+                                Phường Phú Thượng, Quận Tây Hồ, Hà Nội</p>
+                            <p><i class='bx bxs-phone-call'></i> 091 321 7102</p>
+                            <p><i class='bx bxl-gmail'></i> fag.khanh@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="Doibong.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
+</body>
+
+</html>
